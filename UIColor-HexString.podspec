@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'BSD', :file => 'LICENSE' }
   s.author       = { "Kevin Renskers" => "info@mixedcase.nl" }
   s.ios.deployment_target = "1.0"
-  s.tvos.deployment_target = "9.0"
+  s.tvos.deployment_target = "1.0"
   s.source       = { :git => "https://github.com/kevinrenskers/UIColor-HexString.git", :tag => s.version.to_s }
   s.source_files = '*.{h,m}'
   s.requires_arc = true
